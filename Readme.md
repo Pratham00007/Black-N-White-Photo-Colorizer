@@ -47,14 +47,14 @@ pip install opencv-python numpy
 * `colorization_release_v2.caffemodel`
 * `pts_in_hull.npy`
 
-3. Place your grayscale images into the `images/` folder.
+3. Place your grayscale images into the `static/samples` folder.
 
 ---
 
 ## 🖥️ Usage
 
 ```bash
-python colorization.py
+python app.py
 ```
 
 * The script will display two windows:
@@ -85,20 +85,3 @@ python colorization.py
 
 ---
 
-## 📂 File Structure
-
-```
-project/
-│
-├── models/
-│   ├── colorization_deploy_v2.prototxt
-│   ├── colorization_release_v2.caffemodel
-│   └── pts_in_hull.npy
-│
-├── images/
-│   ├── black_and_white_1.jpg
-│   └── black_and_white_2.jpg
-│
-├── colorization.py
-└── README.md
-```
